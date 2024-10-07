@@ -12,3 +12,5 @@ Welcome to my Project Posts/Meta, where I try to (somewhat) consistently give an
 [ohter](./content/other.html)
 
 [content](./content/about-my-sites.html)
+
+**bolded text go funny brrrr**
