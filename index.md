@@ -7,10 +7,11 @@ title: Home
 
 Welcome to my Project Posts/Meta, where I try to (somewhat) consistently give an update on all my projects.
 
-## Links
+Not all posts are necessarily technical, some involve real-life stories, funny experiences, or just random stuff I feel like posting.
 
-[ohter](./content/other.html)
+## Funny Pages
 
-[content](./content/about-my-sites.html)
+- [Test Page](./content/other.html)
+- [About My Sites](./content/about-my-sites.html)
 
 **bolded text go funny brrrr**
