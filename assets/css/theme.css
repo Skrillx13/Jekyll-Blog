@@ -1,38 +1,4 @@
-/*
- *  ___
- * /\_ \
- * \//\ \      __      ___   __  __    ___     ___
- *   \ \ \   /'__`\  /' _ `\/\ \/\ \  / __`\ /' _ `\
- *    \_\ \_/\ \_\.\_/\ \/\ \ \ \_\ \/\ \_\ \/\ \/\ \
- *    /\____\ \__/.\_\ \_\ \_\/`____ \ \____/\ \_\ \_\
- *    \/____/\/__/\/_/\/_/\/_/`/___/> \/___/  \/_/\/_/
- *                               /\___/
- *                               \/__/
- *
- * Designed, built, and released under MIT license by @mdo. Learn more at
- * https://github.com/poole/lanyon.
- */
-
-
-/*
- * Contents
- *
- * Global resets
- * Masthead
- * Sidebar
- * Slide effect
- * Posts and pages
- * Pagination
- * Reverse layout
- * Themes
- */
-
-
-/*
- * Global resets
- *
- * Update the foundational and global aspects of the page.
- */
+/* Global Resets */
 
 /* Prevent scroll on narrow devices */
 html,
@@ -48,30 +14,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #fff;
-  /* letter-spacing: -.025rem; */
 }
 
-
-/*
- * Wrapper
- *
- * The wrapper is used to position site content when the sidebar is toggled. We
- * use an outter wrap to position the sidebar without interferring with the
- * regular page content.
- */
-
+/* Wrapper */
 .wrap {
   position: relative;
   width: 100%;
 }
 
-
-/*
- * Container
- *
- * Center the page content.
- */
-
+/* Container */
 .container {
   max-width: 28rem;
 }
@@ -86,26 +37,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
-/*
- * Masthead
- *
- * Super small header above the content for site name and short description.
- */
-
+/* Heading */
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
-  /* border-bottom: 1px solid #eee; */
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #ff005a;
+  color: #00f3ff;
 }
 .masthead-title a {
-  color: #ff005a;
+  color: #00f3ff;
 }
 .masthead-title small {
   font-size: 75%;
@@ -123,22 +67,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
-/*
- * Sidebar
- *
- * The sidebar is the drawer, the item we are toggling with our handy hamburger
- * button in the corner of the page.
- *
- * This particular sidebar implementation was inspired by Chris Coyier's
- * "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
- * comments by a reader. It modifies both implementations to continue using the
- * checkbox (no change in URL means no polluted browser history), but this uses
- * `position` for the menu to avoid some potential content reflow issues.
- *
- * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
- */
-
+/* Sidebar */
 /* Style and "hide" the sidebar */
 .sidebar {
   position: fixed;
@@ -157,11 +86,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .75rem;
   }
 }
 
-/* Sidebar content */
+/* Sidebar Content */
 .sidebar a {
   font-weight: normal;
   color: #fff;
@@ -173,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
-/* Sidebar nav */
+/* Sidebar Navigation */
 .sidebar-nav {
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
@@ -186,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255, 0, 89, 0.281);
+  background-color: rgb(0 243 255);
   border-color: transparent;
 }
 
@@ -217,7 +146,7 @@ a.sidebar-nav-item:focus {
   display: flex;
   align-items: center;
   padding: .25rem .75rem;
-  color: #ff005a;
+  color: #00f3ff;
   /* background-color: #fff; */
   border-radius: .25rem;
   cursor: pointer;
@@ -256,19 +185,7 @@ a.sidebar-nav-item:focus {
   }
 }
 
-/* Slide effect
- *
- * Handle the sliding effects of the sidebar and content in one spot, seperate
- * from the default styles.
- *
- * As an a heads up, we don't use `transform: translate3d()` here because when
- * mixed with `position: fixed;` for the sidebar toggle, it creates a new
- * containing block. Put simply, the fixed sidebar toggle behaves like
- * `position: absolute;` when transformed.
- *
- * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
- */
-
+/* Slide Effect */
 .wrap,
 .sidebar,
 .sidebar-toggle {

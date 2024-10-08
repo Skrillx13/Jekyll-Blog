@@ -24,14 +24,14 @@ html {
 
 body {
   color: #bebebe;
-  background-color: #151516;
+  background-color: #151515;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #ff357c;
+  color: #00f3ff;
   text-decoration: none;
 }
 a strong {
@@ -40,7 +40,7 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  color: #ffa1c2;
+  color: #00f3ff;
 }
 
 /* Headings and Titles */
@@ -83,7 +83,7 @@ p {
 }
 
 strong {
-  color: #001eff;
+  color: #00f3ff;
 }
 
 
